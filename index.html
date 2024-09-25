@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente de introdução com formulário de inscrição</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div class="box-written">
+            <h1 class="box-written__title">
+                Learn to code by watching others
+            </h1>
+            <p class="box-written__text">
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </div>
+        <div class="box-content">
+            <div class="box-content__tip">
+                <span class="box-content__tip__color">Try it free 7 days</span> then $20/mo. thereafter
+            </div>
+        <form class="box-content__form">
+            <div class="bf">
+                <input class="box-content__form__input box-content__form__fn" type="text" placeholder="First Name" required>
+                <img class="box-content__form__image box-content__form__image__erro__fn" src="images/icon-error.svg" alt="icon-error">
+            </div>
+            <div class="box-content__form__error box-content__form__error__fn">
+            
+            </div>
+            <div class="bf">
+                <input class="box-content__form__input box-content__form__ln" type="text" placeholder="Last Name" required>
+                <img class="box-content__form__image box-content__form__image__erro__ln" src="images/icon-error.svg" alt="icon-error">
+            </div>
+            <div class="box-content__form__error box-content__form__error__ln">
+            
+            </div>
+            <div class="bf">
+                <input class="box-content__form__input box-content__form__em" type="email" placeholder="Email Address" required>
+                <img class="box-content__form__image box-content__form__image__erro__em" src="images/icon-error.svg" alt="icon-error">
+            </div>
+            <div class="box-content__form__error box-content__form__error__em">
+            
+            </div>
+            <div class="bf">
+                <input class="box-content__form__input box-content__form__pw" type="password" placeholder="Password" required>
+                <img class="box-content__form__image box-content__form__image__erro__pw" src="images/icon-error.svg" alt="icon-error">
+            </div>
+            <div class="box-content__form__error box-content__form__error__pw">
+            
+            </div>
+            <button class="box-content__form__button" type="submit">Claim your free trial</button>
+            <div class="box-content__form__terms">
+                By clicking the button, you are agreeing to our <span class="box-content__form__terms__color">Terms and Services</span>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
